@@ -1,3 +1,3 @@
 RewriteEngine on
 RewriteCond $1 !^(index\.php|assets|js|fonts|images|img|robots\.txt)
-RewriteRule ^(.*)$ /iclick/index.php/$1 [L]
+RewriteRule ^(.*)$ /index.php/$1 [L]
